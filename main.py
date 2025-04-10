@@ -149,7 +149,7 @@ async def upload(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://madxabhi-pw.onrender.com/" + id + "/master.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDQzODY4MTEuMTY0LCJkYXRhIjp7Il9pZCI6IjYxNDAxODQ3MmRlYzllMDAxOGRjNWJlNSIsInVzZXJuYW1lIjoiODAwMTQ0OTc2OCIsImZpcnN0TmFtZSI6IkRocnViYWp5b3RpIiwibGFzdE5hbWUiOiJEYXNwb2RkYXIiLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIl0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzQzNzgyMDExfQ.OQbVpzN9rDVvLcsZhFch5HtclfegMJSDNYubtR4gCGg"
+             url =  "https://as-multiverse-b0b2769da88f.herokuapp.com/" + id + "/master.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDQzODY4MTEuMTY0LCJkYXRhIjp7Il9pZCI6IjYxNDAxODQ3MmRlYzllMDAxOGRjNWJlNSIsInVzZXJuYW1lIjoiODAwMTQ0OTc2OCIsImZpcnN0TmFtZSI6IkRocnViYWp5b3RpIiwibGFzdE5hbWUiOiJEYXNwb2RkYXIiLCJvcmdhbml6YXRpb24iOnsiX2lkIjoiNWViMzkzZWU5NWZhYjc0NjhhNzlkMTg5Iiwid2Vic2l0ZSI6InBoeXNpY3N3YWxsYWguY29tIiwibmFtZSI6IlBoeXNpY3N3YWxsYWgifSwicm9sZXMiOlsiNWIyN2JkOTY1ODQyZjk1MGE3NzhjNmVmIl0sImNvdW50cnlHcm91cCI6IklOIiwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzQzNzgyMDExfQ.OQbVpzN9rDVvLcsZhFch5HtclfegMJSDNYubtR4gCGg"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
